@@ -12,3 +12,5 @@ demographic indicators. Steps of my analysis below:
 
 To create a fair comparison between zip codes that have more population than others I created a standardized variable called positive_per_thousand meaning number of positive cases per each 1000 people living in that zip code.
 An example of the resulting data is in the image below
+
+![Dataframe](./Images/dataframe.png)
