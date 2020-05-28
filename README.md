@@ -3,7 +3,10 @@
 As part of my Computational Math and Stats midterm project 
 I wanted to understand the impact of covid-19 cases among 
 NYC zip codes and the association with economic and 
-demographic indicators. Steps of my analysis below:
+demographic indicators. All project code can be found in the jupyter notebook file 
+Midterm Project Ruggiero Julian.ipynb
+
+Steps of my analysis below:
 
 ## 1. Collected information from different data sources
 - NYC Department of Health and Mental Hygiene (DOHMH): number of people tested, positive cases and corresponding ratio per zip code.
