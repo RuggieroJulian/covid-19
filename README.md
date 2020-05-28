@@ -33,3 +33,21 @@ I include below the actual results if you need for reference.
 Created a linear regression model to predict positive per thousand cases on each zip code based on mean income.
 
 ![boxplot](./Images/linear_regression_results.png)
+
+We can see there is a negative association between mean income and positive cases per thousand people. However, after running statistical tests I conclude that the mean income ALONE can’t be used to predict positive per thousand cases in zip codes, a more complex algorithm is needed, which is built in the next step.
+
+## 4.	Multiple linear regression to predict positive cases per thousand people in each zip code.
+
+Here I included the other variables in the equation (mean income, median income, population and population density) and used a procedure called “backward elimination” to find a function that would help me to predict the positive number of cases per thousand people in each zip code.
+Y = 23.6291 + (0.00002641 x population) – (0.00009394 x density) – (0.0000752 x mean income) + (9.5557 x borough Bronx) + (6.5033 x borough Queens) + (9.6407 x borough Staten)
+
+Map of positive cases per thousand people by zip code (as of 05-22-2020).
+![boxplot](./Images/Plot1.png)
+
+The maps show a darker color for the zip codes that have a higher number of positive cases per thousand people and a lighter color for the ones with fewer number. We can hover over the darkest one to see the zip code number.
+
+![boxplot](./Images/Plot1-details.png)
+
+Another map representation
+
+![boxplot](./Images/Plot2.png)
