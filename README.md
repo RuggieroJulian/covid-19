@@ -9,3 +9,6 @@ demographic indicators. Steps of my analysis below:
 - NYC Department of Health and Mental Hygiene (DOHMH): number of people tested, positive cases and corresponding ratio per zip code.
 - US Zip code databases: population and density per zip code (as of 2016)
 - US Census and Bureau reports: mean and median population income per zip code (as of 2016).
+
+To create a fair comparison between zip codes that have more population than others I created a standardized variable called positive_per_thousand meaning number of positive cases per each 1000 people living in that zip code.
+An example of the resulting data is in the image below
