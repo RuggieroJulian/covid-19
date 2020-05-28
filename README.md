@@ -19,3 +19,10 @@ An example of the resulting data is in the image below
 Below is a box-plot showing positive covid-19 cases per thousand people living in each borough. We can see that Queens have some zip codes with up to 45 people tested positive whereas Manhattan some zip codes with only 5 positive per thousand living.
 
 ![boxplot](./Images/boxplot.png)
+
+Here, I did a statistical analysis called ANOVA (analysis of variance) to compare the positive per thousand mean between each borough with the others. 
+After executing the analysis, I reached the conclusion that except the comparison of Bronx-Staten and Queens-Staten, all other pairwise comparisons for positive per thousand indicates statistically significant differences between boroughs. 
+I include below the actual results if you need for reference.
+
+![boxplot](./Images/anova_results.png)
+
