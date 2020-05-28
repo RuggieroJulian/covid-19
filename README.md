@@ -14,3 +14,8 @@ To create a fair comparison between zip codes that have more population than oth
 An example of the resulting data is in the image below
 
 ![Dataframe](./Images/dataframe.png)
+
+## 2.	Analyze positive cases per thousand people per borough.
+Below is a box-plot showing positive covid-19 cases per thousand people living in each borough. We can see that Queens have some zip codes with up to 45 people tested positive whereas Manhattan some zip codes with only 5 positive per thousand living.
+
+![boxplot](./Images/boxplot.png)
