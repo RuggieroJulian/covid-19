@@ -26,3 +26,7 @@ I include below the actual results if you need for reference.
 
 ![boxplot](./Images/anova_results.png)
 
+## 3.	Predict positive per thousand based on mean income
+Created a linear regression model to predict positive per thousand cases on each zip code based on mean income.
+
+![boxplot](./Images/linear_regression_results.png)
