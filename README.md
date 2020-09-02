@@ -1,4 +1,4 @@
-# Analysis of covid-19 cases in NYC boroughs
+# Analysis of covid-19 cases in NYC boroughss
 
 As part of my Computational Math and Stats midterm project 
 I wanted to understand the impact of covid-19 cases among 
